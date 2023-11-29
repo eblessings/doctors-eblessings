@@ -1,5 +1,5 @@
 <div id="friendica">
-	<h1>Friendica</h1>
+	<h1>eBlessings</h1>
 	<p>{{$about nofilter}}</p>
 	<p>{{$friendica nofilter}}</p>
 	<p>{{$bugs nofilter}}</p>

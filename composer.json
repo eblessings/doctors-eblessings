@@ -106,6 +106,9 @@
 				"npm-asset-library": "view/asset",
 				"bower-asset-library": "view/asset"
 			}
+		},
+		"allow-plugins": {
+			"fxp/composer-asset-plugin": true
 		}
 	},
 	"archive": {

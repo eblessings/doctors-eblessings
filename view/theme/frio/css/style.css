@@ -399,7 +399,7 @@ header #banner {
 }
 header #banner #logo-img,
 .navbar-brand #logo-img {
-	-webkit-mask-image: url("img/friendica-25.png");
+	-webkit-mask-image: url("img/eblessings-25.png");
 	background-color: $nav_icon_color;
 	height: 25px;
 	width: 25px;

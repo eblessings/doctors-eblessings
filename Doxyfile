@@ -1,6 +1,6 @@
 INPUT = README.md index.php update.php bin/ mod/ view/ src/ VERSION
 RECURSIVE = YES
-PROJECT_NAME = "Friendica"
+PROJECT_NAME = "eBlessings"
 PROJECT_LOGO = images/friendica-64.png
 EXCLUDE = .htconfig.php config/ library/ doc/ .git/ log/ addon/ report/ privacy_image_cache/ photo/ proxy/ local/
 EXCLUDE_PATTERNS = *smarty3* strings.php *.log *.out *test*

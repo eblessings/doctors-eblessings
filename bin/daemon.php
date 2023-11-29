@@ -78,7 +78,7 @@ if (empty(DI::config()->get('system', 'pidfile'))) {
 Please set system.pidfile in config/local.config.php. For example:
 
     'system' => [
-        'pidfile' => '/path/to/daemon.pid',
+        'pidfile' => 'var/www/doctors.eblessings.live/daemon.pid',
     ],
 TXT
     );

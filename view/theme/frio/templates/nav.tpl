@@ -438,7 +438,7 @@
 				<a class="navbar-brand" href="#">
 					<div id="navbrand-container">
 						<div id="logo-img"></div>
-						<div id="navbar-brand-text"> Friendica</div>
+						<div id="navbar-brand-text"> eBlessings</div>
 					</div>
 				</a>
 			</div>

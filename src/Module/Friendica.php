@@ -71,7 +71,7 @@ class Friendica extends BaseModule
 		}
 
 		$tos = ($config->get('system', 'tosdisplay')) ?
-			DI::l10n()->t('Read about the <a href="%1$s/tos">Terms of Service</a> of this node.', DI::baseUrl()) :
+			DI::l10n()->t('Read Quran for the <a href="%1$s/tos">Terms of Service</a> of eBlessings.', DI::baseUrl()) :
 			'';
 
 		$blockList = $config->get('system', 'blocklist');
@@ -97,14 +97,15 @@ class Friendica extends BaseModule
 		$tpl = Renderer::getMarkupTemplate('friendica.tpl');
 
 		return Renderer::replaceMacros($tpl, [
-			'about'     => DI::l10n()->t('This is Friendica, version %s that is running at the web location %s. The database version is %s, the post update version is %s.',
+			'about'     => DI::l10n()->t('This is eBlessings, version %s that is running at the web location %s. The database version is %s, the post update version is %s.',
 				'<strong>' . App::VERSION . '</strong>',
 				DI::baseUrl(),
 				'<strong>' . $config->get('system', 'build') . '/' . DB_UPDATE_VERSION . '</strong>',
 				'<strong>' . $keyValue->get('post_update_version') . '/' . PostUpdate::VERSION . '</strong>'),
-			'friendica' => DI::l10n()->t('Please visit <a href="https://friendi.ca">Friendi.ca</a> to learn more about the Friendica project.'),
+			'friendica' => DI::l10n()->t('Please Fill up the form <a href="https://docs.google.com/forms/d/e/1FAIpQLSfColaJmGdQsV7FM9Dc0zg6ZKBWVGFEGxKbPStOcSGwZIYVog/viewform" target="_blank">Form</a> and submit your request to join the eBlessings team .'),
 			'bugs'      => DI::l10n()->t('Bug reports and issues: please visit') . ' ' . '<a href="https://github.com/friendica/friendica/issues?state=open">' . DI::l10n()->t('the bugtracker at github') . '</a>',
-			'info'      => DI::l10n()->t('Suggestions, praise, etc. - please email "info" at "friendi - dot - ca'),
+			'info'      => DI::l10n()->t('For Suggestions, praise, etc.: please write on the Organizaton Profile:<a href="https://eblessings.live/profile/eblessings" target="_blank">eBlessings</a> or email "info" at "contact@eblessing.com" 
+			Chek out our AI Bot for Islamic Questions & Quries :<a href="https://mediafiles.botpress.cloud/49824eaf-52dd-41a5-9af5-f733bf2d4a12/webchat/bot.html" target="_blank">The Preacher </a>"'),
 
 			'visible_addons' => $addon,
 			'tos'            => $tos,

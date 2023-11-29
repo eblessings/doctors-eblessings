@@ -78,7 +78,7 @@
 	</script>
 
 	<link rel="search" href="{{$baseurl}}/opensearch" type="application/opensearchdescription+xml"
-		title="Search in Friendica" />
+		title="Search in eBlessings" />
 
 
 	{{* The js files we use *}}

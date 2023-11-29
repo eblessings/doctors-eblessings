@@ -29,22 +29,22 @@ return [
 	'config' => [
 		// info (String)
 		// Plaintext description of this node, used in the /friendica module.
-		'info' => '',
+		'info' => 'A Community Place for Muslims',
 
 		// register_policy (Constant)
 		// Your choices are OPEN, APPROVE, or CLOSED.
 		// Be certain to create your own personal account before setting CLOSED.
 		// APPROVE requires you set system.admin_email to the email address of an
 		// already registered person who can authorize and/or approve/deny the request.
-		'register_policy' => \Friendica\Module\Register::CLOSED,
+		'register_policy' => \Friendica\Module\Register::APPROVE,
 
 		// register_text (String)
 		// Will be displayed prominently on the registration page.
-		'register_text' => '',
+		'register_text' => 'Meet People Like Yourself',
 
 		// sitename (String)
 		// Displayed server name.
-		'sitename' => 'Friendica Social Network',
+		'sitename' => 'eBlessings Doctors',
 	],
 	'system' => [
 		// account_abandon_days (Integer)
@@ -62,7 +62,7 @@ return [
 
 		// banner (HTML string)
 		// HTML snippet of the top navigation banner. Not supported by frio.
-		'banner' => '<a href="https://friendi.ca"><img id="logo-img" width="32" height="32" src="images/friendica.svg" alt="logo" /></a><span id="logo-text"><a href="https://friendi.ca">Friendica</a></span>',
+		'banner' => '<a href="https://doctors.eblessings.live"><img id="logo-img" width="32" height="32" src="images/friendica.svg" alt="logo" /></a><span id="logo-text"><a href="https://doctors.eblessings.live">eBlessings</a></span>',
 
 		// cache_contact_avatar (Boolean)
 		// Cache versions of the contact avatars. Uses a lot of storage space
@@ -103,7 +103,7 @@ return [
 
 		// directory (String)
 		// URL of the global directory.
-		'directory' => 'https://dir.friendica.social',
+		'directory' => '',
 
 		// explicit_content (Boolean)
 		// Set this to announce that your node is used mostly for explicit content that might not be suited for minors.
@@ -130,7 +130,7 @@ return [
 		// logfile (String)
 		// The logfile for storing logs.
 		// Can be a full path or a relative path to the Friendica home directory
-		'logfile' => 'log/friendica.log',
+		'logfile' => 'log/eblessings.log',
 
 		// loglevel (String)
 		// The loglevel for all logs.

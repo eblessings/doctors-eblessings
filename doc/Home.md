@@ -1,4 +1,4 @@
-Friendica Documentation and Resources
+eBlessings Documentation and Resources
 =====================================
 
 **User Manual**
@@ -31,7 +31,7 @@ Friendica Documentation and Resources
 * [Settings & Admin Panel](help/Settings)
 * [Installing Connectors (Twitter/GNU Social)](help/Installing-Connectors)
 * [Install an ejabberd server (XMPP chat) with synchronized credentials](help/install-ejabberd)
-* [Using SSL with Friendica](help/SSL)
+* [Using SSL with eBlessings](help/SSL)
 * [Config values that can only be set in config/local.config.php](help/Config)
 * [Improve Performance](help/Improve-Performance)
 * [Migrate](help/Migrate)
@@ -52,7 +52,7 @@ Friendica Documentation and Resources
 	* [Smarty 3 Templates](help/smarty3-templates)
 	* [Storage backend addon](help/AddonStorageBackend)
 * How To
-	* [Translate Friendica](help/translations)
+	* [Translate eBlessings](help/translations)
 	* [Use Composer](help/Composer)
 	* [Move classes to `src`](help/Developer-How-To-Move-Classes-to-src)
 	* [Run tests](help/Tests)
@@ -65,16 +65,16 @@ Friendica Documentation and Resources
 
 **External Resources**
 
-* [Main Website](https://friendi.ca)
+* [Main Website](https://eblessings.live/profile/helpers)
 * Ways to get Support
-  * Friendica Support Forum: [@helpers@forum.friendi.ca](https://forum.friendi.ca/~helpers)
+  * eBlessings Support Forum: [@helpers@forum.eblessings.live](https://eblessings.live/profile/helpers)
   * [Mailing List Archive](http://mailman.friendi.ca/mailman/listinfo/support-friendi.ca) you can subscribe to the list by sending an email to ``support-request(at)friendi.ca?subject=subscribe``
   * Community chat rooms (the IRC, Matrix and XMPP rooms are bridged) these public chats are logged [from IRC](https://gnusociarg.nsupdate.info/2021/%23friendica/) and [Matrix](https://view.matrix.org/alias/%23friendi.ca:matrix.org/)
     * XMPP/Jabber MUC: support(at)forum.friendi.ca
-    * IRC: #friendica at [libera.chat](https://web.libera.chat/?channels=#friendica)
-    * Matrix: [#friendi.ca](https://matrix.to/#/#friendi.ca:matrix.org) or [#friendica-en](https://matrix.to/#/#friendica-en:matrix.org) at matrix.org
+    * IRC: #eblessings at [libera.chat](https://web.libera.chat/?channels=#eblessings)
+    * Matrix: [#eblessings.live](https://eblessings.live/profile/suggestions) or [#eblessings-en](https://eblessings.live/profile/suggestions) at matrix.org
 
 **About**
 
-* [Site/Version Info](friendica)
-* [Friendica Credits](credits)
+* [Site/Version Info](eBlessings)
+* [eBlessings Credits](credits)

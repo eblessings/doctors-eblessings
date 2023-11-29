@@ -41,12 +41,12 @@ class Welcome extends BaseModule
 		$tpl = Renderer::getMarkupTemplate('welcome.tpl');
 
 		return Renderer::replaceMacros($tpl, [
-			'$welcome'     => DI::l10n()->t('Welcome to Friendica'),
+			'$welcome'     => DI::l10n()->t('Welcome to eBlessings'),
 			'$checklist'   => DI::l10n()->t('New Member Checklist'),
 			'$description' => DI::l10n()->t('We would like to offer some tips and links to help make your experience enjoyable. Click any item to visit the relevant page. A link to this page will be visible from your home page for two weeks after your initial registration and then will quietly disappear.'),
 
 			'$started'         => DI::l10n()->t('Getting Started'),
-			'$quickstart_link' => DI::l10n()->t('Friendica Walk-Through'),
+			'$quickstart_link' => DI::l10n()->t('eBlessings Walk-Through'),
 			'$quickstart_txt'  => DI::l10n()->t('On your <em>Quick Start</em> page - find a brief introduction to your profile and network tabs, make some new connections, and find some groups to join.'),
 
 			'$settings'       => DI::l10n()->t('Settings'),
@@ -78,7 +78,7 @@ class Welcome extends BaseModule
 			'$group_contact_txt'  => DI::l10n()->t('Once you have made some friends, organize them into private conversation groups from the sidebar of your Contacts page and then you can interact with each group privately on your Network page.'),
 			'$newuser_private'    => $newuser_private,
 			'$private_link'       => DI::l10n()->t('Why Aren\'t My Posts Public?'),
-			'$private_txt'        => DI::l10n()->t('Friendica respects your privacy. By default, your posts will only show up to people you\'ve added as friends. For more information, see the help section from the link above.'),
+			'$private_txt'        => DI::l10n()->t('eBlessings respects your privacy. By default, your posts will only show up to people you\'ve added as friends. For more information, see the help section from the link above.'),
 
 			'$help'      => DI::l10n()->t('Getting Help'),
 			'$help_link' => DI::l10n()->t('Go to the Help Section'),

@@ -38,7 +38,7 @@ class Manifest extends BaseModule
 			'start_url'     => DI::baseUrl(),
 			'display'       => 'standalone',
 			'description'   => $config->get('config', 'info', DI::l10n()->t('A Decentralized Social Network')),
-			'short_name'    => 'Friendica',
+			'short_name'    => 'eBlessings',
 			'lang'          => $config->get('system', 'language'),
 			'dir'           => 'auto',
 			'categories'    => ['social network', 'internet'],

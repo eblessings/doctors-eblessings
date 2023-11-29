@@ -201,7 +201,7 @@ class Federation extends BaseAdmin
 		DBA::close($gservers);
 
 		// some helpful text
-		$intro = DI::l10n()->t('This page offers you some numbers to the known part of the federated social network your Friendica node is part of. These numbers are not complete but only reflect the part of the network your node is aware of.');
+		$intro = DI::l10n()->t('This page offers you some numbers to the known part of the federated social network your eBlessings node is part of. These numbers are not complete but only reflect the part of the network your node is aware of.');
 
 		// load the template, replace the macros and return the page content
 		$t = Renderer::getMarkupTemplate('admin/federation.tpl');

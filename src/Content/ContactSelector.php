@@ -192,10 +192,11 @@ class ContactSelector
 	 * @return string Name for network icon
 	 * @throws \Exception
 	 */
+	
 	public static function networkToIcon(string $network, string $profile = "", int $gsid = null): string
 	{
 		$nets = [
-			Protocol::DFRN      =>   'friendica',
+			Protocol::DFRN      =>   'eblessings',
 			Protocol::OSTATUS   =>   'gnu-social', // There is no generic OStatus icon
 			Protocol::FEED      =>   'rss',
 			Protocol::MAIL      =>   'inbox',
@@ -216,7 +217,7 @@ class ContactSelector
 			Protocol::BLUESKY   =>   'circle', /// @todo
 		];
 
-		$platform_icons = ['diaspora' => 'diaspora', 'friendica' => 'friendica', 'friendika' => 'friendica',
+		$platform_icons = ['diaspora' => 'diaspora', 'eblessings' => 'eblessings', 'friendika' => 'eblessings',
 			'GNU Social' => 'gnu-social', 'gnusocial' => 'gnu-social', 'hubzilla' => 'hubzilla',
 			'mastodon' => 'mastodon', 'peertube' => 'peertube', 'pixelfed' => 'pixelfed',
 			'pleroma' => 'pleroma', 'red' => 'hubzilla', 'redmatrix' => 'hubzilla',
